@@ -1,0 +1,3 @@
+Lysosomes are assigned to regions based on their rounded center coordinates, so some may have some pixels in another region (but they are only ever counted in one region)
+
+Sample image is 2021-11-17 13-3. Photons "autoscaled" in imagej and then I drew the region ROIs over it (generated them using threshold and made ROIs, then "draw" the ROI). Set image to RGB color in order to be able to draw white on top of magenta LUTs. There is no lifetime information in this image.

@@ -1,0 +1,398 @@
+<!doctype html>
+<!-- 
+##############################################################
+Ignore this boilerplate if you're just trying to edit the text.
+Skip to the part that says 'The real text begins here'
+##############################################################
+
+Based on this theme: https://github.com/broccolini/dinky , which mentioned that attribution is appreciated. Thanks, broccolini!
+-->
+<html lang="en">
+  <head>
+    <base target="_blank">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="citation_title" content="mScarlet fluorescence lifetime reports lysosomal pH with high precision">
+    <meta name="citation_author" content="Julia R. Lazzari-Dean">
+    <meta name="citation_author" content="Maria Clara Ingaramo">
+    <meta name="citation_author" content="John C.K. Wang">
+    <meta name="citation_author" content="John Yong">
+    <meta name="citation_author" content="Maria del Mar Ingaramo">
+    <meta name="citation_publication_date" content="2022/03/15">
+    <meta name="citation_journal_title" content="Github.io">
+    <meta name="citation_pdf_url" content="https://andrewgyork.github.io/relaxation_sensors/Relaxation_Sensors.pdf">
+    <title>mScarlet fluorescence lifetime reports lysosomal pH with high precision</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/prism.css">
+    <!--[if lt IE 9]>
+    <script src="javascript/html5shiv/html5shiv.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <script src="javascript/scale-fix/scale.fix.js"></script>
+    <script src="javascript/python-highlighting/prism.js"></script>
+    <script async  src="javascript/Minimal-MathJax/MathJax.js?config=TeX-AMS_CHTML"></script>
+    <script src="javascript/update_figures.js"></script>
+    <script src="javascript/reference_list/reference_list.js"></script>
+    <script src="javascript/google-analytics/analytics.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">mScarlet fluorescence lifetime</h1>
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/AndrewGYork/relaxation_sensors/zipball/master">Download ZIP</a></li>
+          <li><a class="buttons github" href="https://github.com/AndrewGYork/relaxation_sensors">View On GitHub</a></li>
+          <li><a class="buttons pdf" href="./Relaxation_Sensors.pdf">Download PDF</a></li>
+        </ul>
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/jlazzaridean">Julia Lazzari-Dean</a> in the <a class="header name" href="http://andrewgyork.github.io/">York lab</a>, and was funded by <a class="header name" href="https://www.calicolabs.com/">Calico Life Sciences LLC</a></p>
+      </header>
+<!-- 
+##############################################################
+The real text begins here.
+##############################################################
+ -->
+<section>
+<h1>Supplementary materials</h1>
+<h2>mScarlet fluorescence lifetime reports lysosomal pH with high precision</h2>
+<p class="author_list">Julia R. Lazzari-Dean,<sup>*</sup> Maria Clara Ingaramo, John C.K. Wang, John Yong, Maria del Mar Ingaramo<sup>&dagger;</sup></p>
+<p class="author_affiliations">Calico Life Sciences LLC, South San Francisco, CA 94080, USA</p>
+<p class="contact_email"><sup>*</sup>Permanent email: <a href="mailto:julia.lazzaridean@gmail.com" target="_self">julia.lazzaridean@gmail.com</a></p>
+<p class="contact_email"><sup>&dagger;</sup>Permanent email: <a href="mailto:maria.del.mar.ingaramo@gmail.com" target="_self">maria.del.mar.ingaramo@gmail.com</a></p>
+
+<h3>This supplement contains:</h3>
+
+<p>
+<a href="#supplementary_text" target="_self">Supplementary Text</a><br>
+<a href="#supplementary_figures" target="_self">Supplementary Figures S1-S13</a><br>
+<a href="#supplementary_tables" target="_self">Supplementary Table S1</a><br>
+<a href="#purity_characterization" target="_self">Characterization of purity of 6xHis-mScarlet preparation</a><br>
+<a href="#sequences" target="_self">Amino acid and DNA sequences of mScarlet constructs</a>
+</p>
+
+<h3 id="supplementary_text">Supplementary Text</h3>
+
+<h4 id="yeast_screen_text">Yeast screen to identify promising low pH biosensors</h4>
+
+<p>In order to identify a viable target for a FLIM-based low pH sensor, we expressed several fluorescent proteins (<a href="https://www.fpbase.org/protein/mscarlet/">mScarlet</a>,
+<a href="https://www.fpbase.org/protein/mscarlet-i/">mScarlet-I</a>,
+<a href="https://www.fpbase.org/protein/mplum/">mPlum</a>,
+<a href="https://www.fpbase.org/protein/mruby/">mRuby</a>,
+<a href="https://www.fpbase.org/protein/mcherry/">mCherry</a>,
+<a href="https://www.fpbase.org/protein/mkate2/">mKate2</a>,
+<a href="https://www.fpbase.org/protein/mkokappa/">mKOκ</a>,
+circularly permuted YFP,
+<a href="https://www.fpbase.org/protein/mcitrine/">mCitrine</a>,
+<a href="https://www.fpbase.org/protein/megfp/">mEGFP</a>,
+<a href="https://www.fpbase.org/protein/mneongreen/">mNeonGreen</a>,
+<a href="https://www.fpbase.org/protein/tdtomato/">tdTomato</a>)
+in BY4741 S. cerevisiae from a p416-GPD-FP-CYC1 plasmid (data not shown).  After overnight growth at 30°C with shaking in 10 mls of synthetic media without uracil, yeast were spun down and resuspended in water. We diluted the yeast in a 1:10 ratio in Carmody buffer + 0.1% digitonin, pH 3 to 12 in 0.5 pH unit intervals, and measured the lifetime as a function of pH. We decided to characterize mScarlet further due to its large lifetime change and bright fluorescence. </p>
+
+<h4 id="glycerol_text">Dependence of mScarlet lifetime on glycerol concentration</h4>
+
+<p>We observe a slight decrease in fluorescence lifetime at high glycerol concentrations (<a href="#mscarlet_glycerol_header" target="_self">Fig S5</a>), which is likely attributable to an increase in refractive index. As predicted by the Strickler-Berg equation for fluorescence lifetime,
+
+[<a class="citation" href="http://doi.org/10.1063/1.1733166" title="Relationship between Absorption Intensity and Fluorescence Lifetime of Molecules; S. J. Strickler, Robert A. Berg; Journal of Chemical Physics 37, 4, 814-822 (1962)">Strickler 1962</a>]
+
+we observe quadratic dependence on the refractive index (RI) of the surrounding medium in a series of glycerol solutions. Although the viscosity of the glycerol-water solution is also changing, we do not observe a clear relationship between viscosity and lifetime, suggesting that the lifetime is responding to the RI change rather than the viscosity change. We note that, because of the fundamental nature of the relationship between fluorescence and RI, <strong>all</strong> fluorescence-based pHlys readouts will display sensitivity to RI. Therefore, although the RI sensitivity is weak relative to the pH sensitivity, caution should be used in interpreting optical pHlys recordings results when the lysosomal RI may be changing.</p>
+
+<h4 id="in_vitro_vs_cells_text">Differences between mScarlet lifetimes observed in lysosomes and in pure protein</h4>
+
+<p>We observe various differences in the pH-lifetime calibration curve between lysosomally targeted mScarlet and pure mScarlet in vitro. First, the pKa is shifted by 0.5 pH units (5.0 in cells and 5.5 in vitro). Second, the lifetimes we measure are ~0.2 ns lower in cells than in pure protein (i.e. the entire curve is shifted vertically down in lifetime). We speculate that the fusion of mScarlet to LAMP1 is responsible for the pKa shift, but purification of the mScarlet-LAMP1 construct to validate this is impractical. It is also likely that the local RI that mScarlet experiences affects its lifetime,
+
+[<a class="citation" href="http://doi.org/10.1063/1.1733166" title="Relationship between Absorption Intensity and Fluorescence Lifetime of Molecules; S. J. Strickler, Robert A. Berg; Journal of Chemical Physics 37, 4, 814-822 (1962)">Strickler 1962</a>]
+
+and the local RI adjacent to a lipid bilayer is almost certainly different from that of PBS. Indeed, changes in the GFP fluorescence lifetime have been observed when it is expressed in the cytosol or tethered to a membrane,
+
+[<a class="citation" href="http://doi.org/10.1529/biophysj.107.127837" title="Refractive Index Sensing of Green Fluorescent Proteins in Living Cells Using Fluorescence Lifetime Imaging Microscopy; Henk-Jan van Manen, Paul Verkuijlen, Paul Wittendorp, Vinod Subramaniam, Timo K. van den Berg, Dirk Roos, Cees Otto; Biophysical Journal 94, 8, L67-L69 (2008)">van Manen 2008</a>]
+
+[<a class="citation" href="http://doi.org/10.1016/s0006-3495(02)75359-9" title="Imaging the Environment of Green Fluorescent Protein; Klaus Suhling, Jan Siegel, David Phillips, Paul M. W. French, Sandrine Lévêque-Fort, Stephen E. D. Webb, Daniel M. Davis; Biophysical Journal 83, 6, 3589-3595 (2002)">Suhling 2002</a>]
+
+and a similar shift in lifetime was observed between free and membrane-tethered RpHluorin2.
+
+[<a class="citation" href="http://doi.org/10.1021/acschembio.1c00907" title="Fluorescence Lifetime Imaging of pH along the Secretory Pathway; Peter T. A. Linders, Melina Ioannidis, Martin ter Beest, Geert van den Bogaart; ACS Chemical Biology 17, 1, 240-251 (2022)">Linders 2022</a>] 
+
+Regardless of the origin of these differences, we believe that they do not pose a problem for the use of mScarlet as a pH indicator, as we obtain consistent results within each sample type.</p>
+
+<h3 id="supplementary_figures">Supplementary Figures S1-S13</h3>
+
+<h4 id="raw_decay_pH_header">Figure S1. mScarlet fluorescence lifetime decay curves as a function of pH.</h4>
+
+<figure id="raw_decay_pH_figure">
+<img src="./figures/figS01_in_vitro_decays/2021-11-18_PBS_35C_decays_semilog.png" alt="Lifetime decays in vitro" id="raw_decay_pH">
+<table class="figure_controls">
+  <tr>
+  <td>Y-axis scaling: </td><td><select id="raw_decay_pH_yaxis" onchange="update_in_vitro_decays_figure()">
+    <option value="semilog.png" selected="selected">Logarithmic</option> 
+    <option value="linear.png">Linear</option>
+  </select>
+</td>
+    </tr>
+</table>
+ <figcaption><strong>Figure S1. mScarlet fluorescence lifetime decay curves as a function of pH.</strong><br>
+  Decays represent the sum of all photons in a field of view recorded from a solution of 0.01 mg/mL mScarlet in PBS at the indicated pH (line color) at 35°C. Each decay was normalized (norm.) to the maximum number of photons obtained in any time bin for that recording.
+ </figcaption>
+</figure>
+
+<h4 id="mscarlet_conc_header">Figure S2. Dependence of mScarlet fluorescence lifetime on mScarlet concentration.</h4>
+
+<figure id="mscarlet_conc_figure">
+<img src="./figures/figS02_Scarlet_conc_in_vitro/scarlet_conc.png" alt="Lifetime as a function of mScarlet concentration" id="mscarlet_conc">
+ <figcaption><strong>Figure S2. Dependence of mScarlet fluorescence lifetime on mScarlet concentration.</strong><br>
+  No change in fluorescence lifetime (mean arrival time) was observed in PBS at pH 7.4 as mScarlet concentration varied from 0.001 mg/mL to 2.7 mg/mL (3.7e-5 M to 1e-4 M).
+ </figcaption>
+</figure>
+
+<h4 id="mscarlet_ions_header">Figure S3. Dependence of mScarlet fluorescence lifetime on concentrations of common ions</h4>
+
+<figure id="mscarlet_ions_figure">
+<img src="./figures/figS03_other_ions_in_vitro/ionic_dependencies.png" alt="Dependence of mScarlet lifetime on common ions" id="mscarlet_ions">
+ <figcaption><strong>Figure S3. Dependence of mScarlet fluorescence lifetime on concentrations of common ions.</strong><br>
+  <strong>(A)</strong> Slight dependence of mScarlet lifetime on ionic strength and PBS concentration. 
+  <strong>(B)</strong> mScarlet lifetime does not depend on KCl concentration. KCl concentration measurements were performed in 1x PBS (in addition to the listed KCl concentration) to maintain consistent pH. 
+  <strong>(C)</strong> mScarlet lifetime does not depend on MgCl<sub>2</sub> concentration. MgCl<sub>2</sub> concentration measurements were performed in 1x PBS (in addition to the listed MgCl<sub>2</sub>  concentration) to maintain consistent pH. 
+  <strong>(D)</strong> mScarlet lifetime does not depend on CaCl<sub>2</sub> concentration. CaCl<sub>2</sub> concentration measurements were performed in 50 mM Tris pH 8 to maintain consistent pH. All measurements were taken with 0.01 mg/mL 6xHis-mScarlet.
+</figcaption>
+</figure>
+
+<h4 id="mscarlet_temp_header">Figure S4. mScarlet response to pH at different temperatures</h4>
+
+<figure id="mscarlet_temp_figure">
+<img src="./figures/figS04_pH_temp/PBS_Carm_temperature.png" alt="pH response dependence on temperature" id="mscarlet_temp">
+ <figcaption><strong>Figure S4. mScarlet response to pH at different temperatures.</strong><br>
+  Effect of temperature on the pH response of 0.01 mg/mL mScarlet in 
+  <strong>(A)</strong> PBS and 
+  <strong>(B)</strong> Carmody Imaging Buffer, which is primarily KCl (see <a href="./index.html#ionophore_methods">Methods</a>). The lifetime response to pH does not depend strongly on either temperature or ionic composition. Each point indicates the average of two measurements taken on separate days; measurements were generally quite similar. Line indicates the fit to a 4 parameter logistic model; fit parameters are tabulated in <a href="#scarlet_fit_table" target="_self">Table S1.</a>
+ </figcaption>
+</figure>
+
+<h4 id="mscarlet_glycerol_header">Figure S5. Dependence of mScarlet fluorescence lifetime on glycerol concentration</h4>
+
+<figure id="mscarlet_glycerol_figure">
+<img src="./figures/figS05_glycerol_viscosity_RI/glycerol.png" alt="Effect of glycerol on lifetime" id="mscarlet_glycerol">
+ <figcaption><strong>Figure S5. Dependence of mScarlet fluorescence lifetime on glycerol concentration. </strong><br>
+  <strong>(A)</strong> mScarlet lifetime decreases as glycerol percentage increases. mScarlet (0.01 mg/mL) was mixed with glycerol at varying percentages in 50 mM sodium phosphate, pH 8. Solution pH was set after glycerol addition to ensure consistency. 
+  <strong>(B)</strong> Re-plotting of the lifetime data in (A) vs. the <a href="http://www.met.reading.ac.uk/~sws04cdw/viscosity_calc.html">calculated dynamic viscosity</a>
+
+  [<a class="citation" href="http://doi.org/10.1007/s00348-018-2527-y" title="Density Model for Aqueous Glycerol Solutions; Andreas Volk, Christian J. Kähler; Experiments in Fluids 59, 5, 75 (2018)">Volk 2018</a>]
+
+  for that glycerol-water mixture at the appropriate temperature. 
+  <strong>(C)</strong> Re-plotting of the lifetime data in (A) vs. the published refractive index
+
+  [<a class="citation" href="http://doi.org/10.1021/ie50291a023" title="New Table of the Refractive Index of Pure Glycerol at 20°C; L.F. Hoyt; Industrial and Engineering Chemistry 26, 3, 329-332 (1934)">Hoyt 1934</a>]
+
+  squared (n<sup>2</sup>). A linear relationship is observed, as predicted by the Strickler-Berg equation
+
+  [<a class="citation" href="http://doi.org/10.1063/1.1733166" title="Relationship between Absorption Intensity and Fluorescence Lifetime of Molecules; S. J. Strickler, Robert A. Berg; Journal of Chemical Physics 37, 4, 814-822 (1962)">Strickler 1962</a>].
+
+  A line of best fit, along with parameters describing that line, is displayed on the plot.
+</figcaption>
+</figure>
+
+<h4 id="sir_lysosome_coloc_header">Figure S6. Strong Colocalization between SiR Lysosome and mScarlet-LAMP1</h4>
+
+<figure id="sir_lysosome_coloc_figure">
+<img src="./figures/figS06_SiR_lysosome/sir_lysosome.png" alt="Colocalization with SiR Lysosome" id="sir_lysosome_coloc">
+ <figcaption><strong>Figure S6. Strong Colocalization between SiR Lysosome and mScarlet-LAMP1</strong><br>
+  <strong>(A)</strong> U2OS cells transiently transfected with the mScarlet-LAMP1 reporter and stained with SiR Lysosome. 
+  <strong>(B)</strong> A549 polyclonal cell line expressing mScarlet-LAMP1 reporter and stained with SiR Lysosome. Note that the mScarlet-LAMP1 reporter is more strongly expressed in some cells than others in this polyclonal line, and it shows only very weak fluorescence intensity in some cells. In cells where both labels show strong intensities, the two fluorescence channels reveal the same structures, although the fluorescence intensities of the two lysosomal stains do not appear correlated at the individual lysosome level.
+</figcaption>
+</figure>
+
+<h4 id="two_color_misloc_header">Figure S7. Loss of one-to-one stoichiometry in the two-color pHlys reporter pHLARE.</h4>
+
+<figure id="two_color_misloc_figure">
+<img src="./figures/figS07_pHlare_degradation/phlare_degradation-01.png" alt="Degradation of Two-Color Sensors" id="two_color_misloc">
+ <figcaption><strong>Figure S7. Loss of one-to-one stoichiometry in the two-color pHlys reporter pHLARE.</strong><br>
+  U2OS cells were transiently transfected with the pHlys reporter pHLARE8 and treated with 100 nM BafA for 5 hours. Point-scanning confocal micrographs of the mCherry and sfGFP channels reveal a range of costaining patterns for the two fluorescent proteins in pHLARE. While the mCherry signal generally appears as a hollow outline (cytosolic side of lysosomal membrane), the sfGFP signal (lumenal side of lysosomal membrane) appears as a filled circle in some lysosomes and a hollow circle in others. In the filled circles, sfGFP signal in the center of the lysosome appears far away from the mCherry stain, likely representing cleavage of the sfGFP from LAMP1 by lysosomal proteases. White arrows indicate clear examples of the various co-staining patterns (top two arrows, hollow; bottom two arrows, filled).
+</figcaption>
+</figure>
+
+<h4 id="a549_calibration_header">Figure S8. pH Sensitivity of the mScarlet-LAMP1 reporter in A549 cells.</h4>
+
+<figure id="a549_calibration_figure">
+<img src="./figures/figS08_A549_nigericin_monensin/A549_pH_sensitivity.png" alt="Calibration in A549 Cells" id="a549_calibration">
+ <figcaption><strong>Figure S8. pH Sensitivity of the mScarlet-LAMP1 reporter in A549 cells.</strong><br>
+  Measurements were performed in a polyclonal mScarlet-LAMP1 reporter cell line derived from the A549 parent cell line. 
+  <strong>(A)</strong> Average lifetime recorded at each pH, where pHlys was set by incubation with 10 μM nigericin and 2 μM monensin. Each point is the mean ± SD of the average lysosomal lifetime from 15 images. Solid line indicates a 4 parameter logistic fit to the data; model parameters are listed in <a href="#scarlet_fit_table" target="_self">Table S1</a>. 
+  <strong>(B)</strong> Violin plots showing the per-lysosome quantification of the data from (A). Inner lines indicate median and first/third quartiles of the dataset (N=1384-2479 segmented lysosomal regions from 15 images per pH). 
+  <strong>(C)</strong> Representative lifetime-intensity overlay images of A549 cells with pHlys set to the indicated value using nigericin and monensin.
+</figcaption>
+</figure>
+
+<h4 id="extra_bafa_endpt_header">Figure S9. Additional representative images of pHlys in control and BafA treated cells.</h4>
+
+<figure id="extra_bafa_endpt_figure">
+<img src="./figures/figS09_addtl_endpt_baf_images/SUPP_DMSO_baf_images.png" alt="Additional BafA Endpoint Images" id="extra_bafa_endpt">
+ <figcaption><strong>Figure S9. Additional representative images of pHlys in control and BafA treated cells.</strong><br>
+  Lifetime-intensity overlay images of U2OS cells incubated for 5 hours in complete media containing <strong>(A)</strong> 0.1% DMSO (vehicle control) or <strong>(B)</strong> 100 nM BafA (bafilomycin A1). 
+  <strong>(C)</strong> Histograms quantifying pHlys on a per-lysosome basis in the above images. Lysosome regions smaller than 2 pixels in area were omitted.
+</figcaption>
+</figure>
+
+<h4 id="bafa_image_averages_header">Figure S10. Effects of bafilomycin A1 treatment on pHlys quantified at the whole cell level</h4>
+
+<figure id="bafa_image_averages_figure">
+<img src="./figures/figS10_baf_image_averages/baf_by_cell_averages.png" alt="Quantification of BafA Effect: Whole Cell" id="bafa_image_averages">
+ <figcaption><strong>Figure S10. Effects of bafilomycin A1 treatment on pHlys quantified at the whole cell level.</strong><br>
+  <strong>(A)</strong> Time course of pHlys change in response to DMSO or bafA addition (0.1% or 100 nM respectively, added at time=0), as measured by mScarlet lifetime. Each trace is the average lifetime for all lysosomes in a given cell (same dataset as <a href="./index.html#time_series_main_figure">Figure 3</a>). 
+  <strong>(B)</strong> Aggregated response to DMSO or bafA addition across all recordings (same data as in (A), DMSO n=15, BafA n=11). Solid points indicate median and shaded area indicates +/- 1 standard deviation. 
+  <strong>(C)</strong> Average lifetime by cell for cells treated with 0.1% DMSO or 100 nM BafA for 5-6 hours (same dataset as <a href="./index.html#perturbations_main_figure">Figure 2C</a>). Each point represents 1 cell (DMSO n = 24, BafA n=22).
+</figcaption>
+</figure>
+
+<h4 id="grinstein_spatial_header">Figure S11. Spatial distribution of pHlys in control and BafA treated cells.</h4>
+
+<figure id="grinstein_spatial_figure">
+<img src="./figures/figS11_grinstein_spatial/spatial_analysis-01.png" alt="Spatial Distribution of pHlys" id="grinstein_spatial">
+ <figcaption><strong>Figure S11. Spatial distribution of pHlys in control and BafA treated cells.</strong><br>
+  <strong>(A)</strong> Fluorescence intensity (photon count) image of a U2OS cell expressing mScarlet-LAMP1, along with a depiction of cellular regions evaluated for spatial differences (white lines and numbers). 5 &mu;m slices were taken from the cell periphery moving inward as described previously.
+
+  [<a class="citation" href="http://doi.org/10.1083/jcb.201507112" title="The Position of Lysosomes within the Cell Determines Their Luminal pH; Danielle E. Johnson, Philip Ostrowski, Valentin Jaumouillé, Sergio Grinstein; Journal of Cell Biology 212, 6, 667-692 (2016)">Johnson 2016</a>]
+
+  Lysosomal ROIs located on a region border were assigned to the region in which the center of the ROI was located. 
+  <strong>(B)</strong> Distribution of mScarlet lifetimes measured in each region in cells treated with 0.1% DMSO or 100 nM BafA for 5-6 hours. Analysis was done on the same dataset from Figure 2C (DMSO n=24, BafA n=22 cells). Number of lysosomal ROIs identified in each condition (in ascending order by zone) are as follows: DMSO 411, 458, 536, 2454; BafA 274, 365, 439, 2325.
+</figcaption>
+</figure>
+
+<h4 id="media_images_header">Figure S12. Images of pHlys recordings from U2OS cells in different media conditions</h4>
+
+<figure id="media_images_figure">
+<img src="./figures/figS12_media_images/media_images.png" alt="pHlys images in various media" id="media_images">
+ <figcaption><strong>Figure S12. Images of pHlys recordings from U2OS cells in different media conditions.</strong><br>
+  Images are lifetime-intensity overlays; underlying intensity is scaled to the range of each image individually (i.e. intensity is not comparable across images). U2OS cells were transiently transfected with mScarlet-LAMP1 and grown in complete DMEM (4.5 g/L glucose, 10% FBS, 1 mM pyruvate, 1% pen-strep) with 2 mM GlutaMAX. 5-10 minutes before image acquisition, growth media was exchanged for the indicated solution. GMax, Fresh: fresh complete growth media with 2 mM GlutaMAX; Gln, Fresh: complete growth media with 4 mM glutamine added the day of the experiment; Gln, Orig.: complete growth media containing 4 mM glutamine added by the manufacturer; GMax, spent: no media change (kept same complete growth media); DMEM base: DMEM with 4.5 g/L glucose only. Note that substantial cell-to-cell heterogeneity was present in these conditions, so these images should not be interpreted as representative of all cells.
+</figcaption> 
+</figure>
+
+<h4 id="more_bafa_ts_header">Figure S13. Additional representative images of pHlys response to BafA over time</h4>
+
+<figure id="more_bafa_ts_figure">
+<img src="./figures/figS13_baf_time_series_other_ex/extra_baf_time_series.png" alt="Additional BafA TS Images" id="more_bafa_ts">
+ <figcaption><strong>Figure S13. Additional representative images of pHlys response to BafA over time.</strong><br>
+ Lifetime-intensity overlay images of U2OS cells expressing mScarlet-LAMP1 and treated with 0.1% DMSO <strong>(A, B)</strong> or 100 nM BafA <strong>(C, D)</strong> at time 0. <strong>(E)</strong> Histograms of mScarlet-LAMP1 lifetime measured at the individual lysosome level at each time point. In BafA treated cells, an initial broadening of the distribution followed by a contraction of the distribution can be observed. In DMSO treated cells, minimal change is observed. Adjacent or overlapping lysosomes were treated as a unit, and lysosomal regions smaller than 2 pixels were omitted.
+</figcaption>
+</figure>
+
+<h3 id="supplementary_tables">Supplementary Tables</h3>
+
+<table id="scarlet_fit_table">
+  <caption><strong>Table S1. Fit parameters for a four parameter logistic function to describe mScarlet lifetime response to pH.</strong> Parameters are shown as the value ± standard deviation (SD) from the fit. Please note that the SD reported here is the fitting error alone and does not include variability introduced by the experiment itself. </caption>
+  <tr>
+    <th>Condition</th>
+    <th>Temp (°C)</th>
+    <th>Construct</th>
+    <th>pKa</th>
+    <th>Slope Factor</th>
+    <th>Min. τ (ns)</th>
+    <th>Max. τ (ns)</th>      
+  </tr>
+  <tr>
+    <td>PBS</td>
+    <td>23</td>
+    <td>6xHis-mScarlet</td>
+    <td>5.58 ± 0.06</td>
+    <td>13 ± 2</td>
+    <td>2.06 ± 0.06</td>
+    <td>3.62 ± 0.06</td>
+  </tr>
+  <tr>
+    <td>PBS</td>
+    <td>35</td>
+    <td>6xHis-mScarlet</td>
+    <td>5.59 ± 0.04</td>
+    <td>12 ± 1</td>
+    <td>2.11 ± 0.03</td>
+    <td>3.58 ± 0.03</td>
+  </tr>
+  <tr>
+    <td>Carmody's Imaging Buffer</td>
+    <td>23</td>
+    <td>6xHis-mScarlet</td>
+    <td>5.56 ± 0.07</td>
+    <td>12 ± 2</td>
+    <td>1.98 ± 0.07</td>
+    <td>3.72 ± 0.07</td>
+  </tr>
+  <tr>
+    <td>Carmody's Imaging Buffer</td>
+    <td>35</td>
+    <td>6xHis-mScarlet</td>
+    <td>5.51 ± 0.04</td>
+    <td>13 ± 1</td>
+    <td>2.08 ± 0.04</td>
+    <td>3.58 ± 0.03</td>
+  </tr>
+  <tr>
+    <td>U2OS Lysosomes</td>
+    <td>35</td>
+    <td>mScarlet-LAMP1</td>
+    <td>4.90 ± 0.05</td>
+    <td>13 ± 1</td>
+    <td>1.72 ± 0.07</td>
+    <td>3.25 ± 0.02</td>
+  </tr>
+  <tr>
+    <td>A549 Lysosomes</td>
+    <td>35</td>
+    <td>mScarlet-LAMP1</td>
+    <td>5.13 ± 0.03</td>
+    <td>11.7 ± 0.9</td>
+    <td>1.75 ± 0.04</td>
+    <td>3.31 ± 0.02</td>
+  </tr>
+</table>
+
+<h3 id="purity_characterization">Characterization of purity of 6xHis-mScarlet preparation</h3>
+<p>6xHis-mScarlet was purified as described in the Methods. Below, SDS-Page of purified mScarlet protein, showing a major band at 28 kDa, along with fragments at 19 kDa and 9 kDa indicating cleavage of the backbone under reducing conditions. Protein was 99.5% pure by UV in analytical high performance liquid chromatography size exclusion chromatography (HPLC-SEC).</p>
+<figure id="mscarlet_sds_page_figure">
+<img src="./figures/mScarlet_purity/mScarlet_SDS_page.png" alt="SDS-PAGE of purified 6xHis-mScarlet" id="mscarlet_sds_page">
+</figure>
+
+<h3 id="sequences">Amino Acid and DNA sequences of mScarlet constructs</h3>
+
+<h4 id="6xHis_mScarlet_AA">6xHis-mScarlet Amino Acid Sequence (for characterization of pure protein)</h4>
+
+<p>MRGSHHHHHHGMASMVSKGEAVIKEFMRFKVHMEGSMNGHEFEIEGEGEGRPYEGTQT
+AKLKVTKGGPLPFSWDILSPQFMYGSRAFTKHPADIPDYYKQSFPEGFKWERVMNFED
+GGAVTVTQDTSLEDGTLIYKVKLRGTNFPPDGPVMQKKTMGWEASTERLYPEDGVLKG
+DIKMALRLKDGGRYLADFKTTYKAKKPVQMPGAYNVDRKLDITSHNEDYTVVEQYERS
+EGRHSTGGMDELYK*</p>
+
+<h4 id="mScarlet-LAMP1_AA">prolactin-mScarlet-linker-rat LAMP1 Amino Acid Sequence (referred to as mScarlet-LAMP1)</h4>
+
+<p>MDSKGSSQKGSRLLLLLVVSNLLLCQGVVSMVSKGEAVIKEFMRFKVHMEGSMNGHEF
+EIEGEGEGRPYEGTQTAKLKVTKGGPLPFSWDILSPQFMYGSRAFTKHPADIPDYYKQ
+SFPEGFKWERVMNFEDGGAVTVTQDTSLEDGTLIYKVKLRGTNFPPDGPVMQKKTMGW
+EASTERLYPEDGVLKGDIKMALRLKDGGRYLADFKTTYKAKKPVQMPGAYNVDRKLDI
+TSHNEDYTVVEQYERSEGRHSTGGMDELYKSGSSATAPALFEVKDNNGTACIMASFSA
+SFLTTYEAGHVSKVSNMTLPASAEVLKNSSSCGEKNASEPTLAITFGEGYLLKLTFTK
+NTTRYSVQHMYFTYNLSDTQFFPNASSKGPDTVDSTTDIKADINKTYRCVSDIRVYMK
+NVTIVLWDATIQAYLPSSNFSKEETRCPQDQPSPTTGPPSPSPPLVPTNPSVSKYNVT
+GDNGTCLLASMALQLNITYMKKDNTTVTRAFNINPSDKYSGTCGAQLVTLKVGNKSRV
+LELQFGMNATSSLFFLQGVQLNMTLPDAIEPTFSTSNYSLKALQASVGNSYKCNSEEH
+IFVSKALALNVFSVQVQAFRVESDRFGSVEECVQDGNNMLIPIAVGGALAGLVLIVLI
+AYLIGRKRSHAGYQTI*</p>
+
+<p><strong>pRSET_6xHis-mScarlet plasmid for E. coli expression:</strong> <a href="./sequences/pRSET_6xHis-mScarlet.dna">SnapGene file</a> and <a href="./sequences/pRSET_6xHis-mScarlet.gb">GenBank file</a></p>
+
+<p><strong>pcDNA3_mScarlet-LAMP1 plasmid for transient transfection into mammalian cells:</strong> <a href="./sequences/pcDNA3_mScarlet-LAMP1.dna">SnapGene file</a> and <a href="./sequences/pcDNA3_mScarlet-LAMP1.gb">GenBank file</a></p>
+
+<p><strong>pCDH_mScarlet-LAMP1 plasmid for lentivirally generated stable cell lines:</strong> <a href="./pCJJY5.34_pCDH-UCOE-SFFV-mScarlet-LAMP1-EF1a-Blast.dna">SnapGene file</a> and <a href="./sequences/pCJJY5.34_pCDH-UCOE-SFFV-mScarlet-LAMP1-EF1a-Blast.gb">GenBank file</a></p>
+
+<noscript>
+<h3>Your browser doesn't seem to support Javascript. This document uses Javascript to generate a reference list, which would normally be displayed here. Either activate Javascript, or use the "Download PDF" link above if you want to see the reference list.</h3></noscript>
+
+</section>
+<footer>
+  <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="./images/cc_by_4p0.png"></a>
+
+  <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a></small></p>
+</footer>
+</div>
+ <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+</body>
+</html>
+ 

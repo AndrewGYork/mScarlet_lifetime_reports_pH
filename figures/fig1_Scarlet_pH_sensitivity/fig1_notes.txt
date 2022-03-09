@@ -1,0 +1,4 @@
+
+
+
+Note that the nigericin/monensin data are combined in the order 06-03, 06-09 for mister_clicky (I just concatenated those two annotate_mes and ran another mister_clicky to keep it all consistent and in one place). The data were exported as .TIFF from symphotime.

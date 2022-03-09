@@ -1,0 +1,22 @@
+
+
+
+Images are rendered 1.7-3.5, each scaled to their own max photons
+
+Main text images
+DMSO: 10/29 5-3
+Baf: 10/29 4-1
+
+Supplementary Images
+DMSO
+10/29 5-2
+10/29 3-4
+10/29 3-5
+11/17 13-4
+
+
+Baf
+10/29 4-4
+10/29 6-1
+11/17 14-3
+11/17 16-1

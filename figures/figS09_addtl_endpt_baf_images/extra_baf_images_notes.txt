@@ -1,0 +1,19 @@
+Lifetime colormaps are scaled from 1.7-3.5 ns. Time series are scaled to the max photons in the time series (but not to each other).
+
+
+Main text images
+DMSO: 10/29 5-3
+Baf: 10/29 4-1
+
+Supplementary Images
+DMSO
+(1) 10/29 5-2
+(2) 10/29 3-4
+(3) 11/17 13-4
+10/29 3-5 (omitted for space)
+
+Baf
+(1) 10/29 6-1
+(2) 11/17 14-3
+(3) 11/17 16-1
+10/29 4-4 (omitted for space)

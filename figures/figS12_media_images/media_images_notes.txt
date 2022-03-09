@@ -1,0 +1,8 @@
+Lifetime colormaps are scaled from 1.7-3.5 ns. time series are scaled to the max photons in the time series (but not to each other).
+
+
+DMEM Gmax fresh: 12/15 7-4
+DMEM fresh gin: 11/17 11-4
+DMEM original gln: 11/17 8-4
+DMEM Gmax no media change: 11/17 5-1
+DMEM base: 12/15 6-4
