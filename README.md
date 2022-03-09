@@ -8,7 +8,7 @@ This repository is intended to hold a (mostly) self-contained scientific publica
 
 * HTML, javascript, CSS, and small images (`index.html`, `appendix.html`, and the `javascript`, `stylesheets`, `figures` and `images` directories)
 * A (limited) PDF version of the publication; note that this does not include animated/interactive figures.
-* Code which produces figures (in the `figure_generation` directory). You can run and modify this code to verify and explore our results. See `figure_generation/README.txt` for instructions how to run the figure generation code.
+* Code which produces figures (in the `figures` directory). You can run and modify this code to verify and explore our results. See `figure_generation/README.txt` for instructions how to run the figure generation code.
 
 Some files aren't suitable for version control, (e.g. raw data, minimally pre-processed data, etc). These are stored in a dedicated repository:
 
