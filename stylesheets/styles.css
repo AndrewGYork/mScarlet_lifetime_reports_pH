@@ -238,7 +238,7 @@ table {
   width: 100%;
   border: 1px solid #ccc;
   margin-bottom: 32px;
-  text-align: center;
+  text-align: left;
  }
 
 table.figure_controls {
@@ -459,6 +459,9 @@ footer {
   header ul li.download {
     display:none;
   }
+  a.buttons {
+    display:none;
+  }
 
   footer {
     margin: 0 0 0 20px;
@@ -474,6 +477,9 @@ footer {
     padding:0.4in;
     font-size:12pt;
     color:#444;
+  }
+  figure{
+    page-break-after: always;
   }
 }
 
