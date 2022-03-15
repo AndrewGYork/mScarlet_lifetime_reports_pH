@@ -131,3 +131,4 @@ dmypy.json
 # Mac specific stuff I added
 Icon?
 .DS_Store
+Icon
