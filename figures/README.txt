@@ -3,6 +3,7 @@ Dependency versions:
 Scipy 1.7.2
 Numpy 1.21.4
 Matplotlib 3.5.0
+Seaborn 0.11.2
 Tifffile 2021.11.2
 Pandas 1.3.4
 
