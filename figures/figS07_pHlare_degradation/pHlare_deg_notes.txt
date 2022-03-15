@@ -1,6 +1,6 @@
 Note that these data from 2021-02-18 seem to be some of the only high quality baf-DMSO data I took with pHlare.
 
-Goal is to show that the red and green do not always stay colocalized. This is easiest to see in baf data, where green is brighter and lysosomes are enlarged, but I suspect it happens on other cases too.
+The takeaway from this figure is that the red and green channels of this two-color sensor do not always stay colocalized. This is easiest to see in baf data, where green is brighter and lysosomes are enlarged, but I suspect it happens on other cases too.
 
 The discrepancy between two hollow circles and a hollow circle and a filled circle can be seen relatively clearly in image 04-4, but some combination of the baf images will probably be required to make this point.
 

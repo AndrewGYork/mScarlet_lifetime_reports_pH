@@ -9,7 +9,7 @@ from scipy.stats import linregress
 # This script plots the in vitro data taken for purified Scarlet-His.
 # Data were analyzed with SPT (mean arrival time). Median and stdev of
 # the mean arrival time for each image was calculated by
-# generate_in_vitro_summary_table.py.
+# generate_in_vitro_summary_table.py in the source_data folder.
 
 # generate some paths
 current_dir = Path.cwd()

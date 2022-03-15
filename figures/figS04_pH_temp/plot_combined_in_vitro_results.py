@@ -9,7 +9,7 @@ from scipy.stats import linregress
 # This script plots the in vitro data taken for purified Scarlet-His.
 # Data were analyzed with SPT (mean arrival time). Median and stdev of
 # the mean arrival time for each image was calculated by
-# generate_in_vitro_summary_table.py.
+# generate_in_vitro_summary_table.py in the source_data folder.
 
 def logistic4(pH, min_val, hill, pKa, max_val):
     return ((min_val - max_val) / (1.0 + ((pH/pKa)**hill))) + max_val

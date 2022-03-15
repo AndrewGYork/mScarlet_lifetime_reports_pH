@@ -3,6 +3,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 import picoquant_tttr_sin_corr as pq
 
+# This script (unlike most other scripts in the figure generation
+# folder) directly accesses raw photon arrival time data (.SPT) in order
+# to generate time-domain lifetime decays. Extracting from the raw data
+# is kind of slow, so the output here is saved to csv and read in by the
+# plotting python script in this same folder.
+
 # generate some paths
 current_dir = Path.cwd()
 manuscript_path = current_dir.parents[1]

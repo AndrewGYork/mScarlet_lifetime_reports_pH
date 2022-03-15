@@ -7,9 +7,10 @@ from skimage.color import label2rgb
 from skimage.morphology import binary_erosion, disk, remove_small_objects
 
 # This script allows you to save the "region mask" to delineate cellular
-# zones as performed in Grinstein JCB (to look at how pHlys varies by
-# region). There is another script that generates and applies these
-# masks in source_data; this is merely for generating a sample figure.
+# zones as performed in Grinstein JCB
+# (https://doi.org/10.1083/jcb.201507112) to look at how pHlys varies by
+# region. There is another script that generates and applies these masks
+# in source_data; this is merely for generating a sample figure.
 
 # I use "erode" to go a set distance in from the outside of the cell. By
 # doing this sequentially, I identify shells/zones at the outside of the
