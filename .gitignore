@@ -129,6 +129,5 @@ dmypy.json
 .pyre/
 
 # Mac specific stuff I added
-Icon?
+Icon\r
 .DS_Store
-Icon
