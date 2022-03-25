@@ -1,8 +1,8 @@
 # mScarlet fluorescence lifetime reports lysosomal pH
 
-Permanent version (cite as): <a href="https://doi.org/10.5281/zenodo.6363343"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6363343.svg" alt="DOI"></a>
+Permanent version (cite as): <a href="https://doi.org/10.5281/zenodo.6363342"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6363342.svg" alt="DOI"></a>
 
-A scientific publication that describes a new approach for measuring lysosomal pH, based on the fluorescence lifetime of mScarlet. This repository hosts everything you need to reproduce our results. Read the publication here: https://jlazzaridean.github.io/mScarlet_pHlys (hosted via Julia Lazzari-Dean's personal GitHub account) or here: https://andrewgyork.github.io/mScarlet_pHlys (hosted via Andrew G. York's personal GitHub account)
+A scientific publication that describes a new approach for measuring lysosomal pH, based on the fluorescence lifetime of mScarlet. This repository hosts everything you need to reproduce our results. Read the publication here: https://jlazzaridean.github.io/mScarlet_lifetime_reports_pH (hosted via Julia Lazzari-Dean's personal GitHub account) or here: https://andrewgyork.github.io/mScarlet_lifetime_reports_pH (hosted via Andrew G. York's personal GitHub account)
 
 This repository is intended to hold a (mostly) self-contained scientific publication. It contains:
 
