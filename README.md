@@ -1,4 +1,4 @@
-# mScarlet fluorescence lifetime reports lysosomal pH
+## mScarlet fluorescence lifetime reports lysosomal pH quantitatively
 
 Permanent version (cite as): <a href="https://doi.org/10.5281/zenodo.6363342"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6363342.svg" alt="DOI"></a>
 
